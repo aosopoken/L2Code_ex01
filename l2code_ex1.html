@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>l2code_ex1</title>
+    <link rel="stylesheet" href="l2code_ex1.css">
+</head>
+<body>
+    <div class="corpo">
+        <div class="tamanhoGrid">
+            <input class="input" type="text" id="inputLargura" placeholder="Largura do grid">
+            <input class="input" type="text" id="inputComprimento" placeholder="Comprimento do grid">
+            <div class="display__botao">
+                <button class="confirmar"  onclick="tamanhoGrid()" id="botao">Confirmar</button>
+            </div>
+        </div>
+        <h3 class="texto" id="largura">Largura: 0</h3>
+        <h3 class="texto" id="comprimento">Comprimento: 0</h3>
+        <h3 class="texto" id="x">X: 0</h3>
+        <h3 class="texto" id="y">Y: 0</h3>
+        <h3 class="texto" id="direcaoAtual">Direção atual: N</h3>
+        <div>
+            <input class="text" type="text" id="inputComando" placeholder="Digite seus comandos">
+            <button class="confirmar" onclick="andar()" id="botaoComando">Confirmar</button>
+        </div>
+        <button class="resetar" onclick="resetar()">Resetar</button>
+    </div>
+        <script src="l2code_ex1.js"></script>
+</body>
+</html>

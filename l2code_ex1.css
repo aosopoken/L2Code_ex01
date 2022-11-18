@@ -1,0 +1,83 @@
+body {
+    background-color: rgba(0, 0, 0, 0.767);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    background-image: url(/gif/Commission-2020-Mar-Raul.gif);
+    background-repeat: no-repeat;
+}
+
+h3 {
+    color: #FFFF;
+}
+
+.corpo {
+    background-color: rgba(0, 0, 0, 0.877);
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #FFFF;
+    border-radius: 20px;
+    box-shadow: 0px 0px 42px 16px;
+    padding: 2rem;
+}
+
+.texto {
+    height: 0.6rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.input {
+    font-size: 22px;
+    width: 100%;
+    height: 2rem;
+    margin-bottom: 1rem;
+}
+
+.display__botao {
+    display: flex;
+    justify-content: center;
+}
+
+.confirmar {
+    border-color: #FFFF;
+    width: 11rem;
+    font-weight: 600;
+    font-size: 22px;
+    color: #FFFF;
+    border-radius: 8px;
+    padding: 5px 0px 5px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.tamanhoGrid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.text {
+    margin-top: 2rem;
+    font-size: 22px;
+    width: 15rem;
+    height: 2rem;
+}
+
+.resetar {
+    border-color: #FFFF;
+    font-weight: 600;
+    font-size: 22px;
+    color: #FFFF;
+    border-radius: 8px;
+    margin-top: 2rem;
+    padding: 15px 0px 15px;
+    background-color: transparent;
+    cursor: pointer;
+}
