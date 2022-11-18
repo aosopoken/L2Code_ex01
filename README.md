@@ -8,3 +8,5 @@ e "L" e "O" para o eixo X, dependendo da direção e o comando obtendo +1 ou -1 
 
 Para não permitir valores negativos e nem acima da largura ou comprimento fiz os eixos receberem 0 (no lugar do valor negativo) ou as variáveis
 da largura e comprimento (em casos de acima do total).
+
+Necessário abrir com a extensão Live Server.
